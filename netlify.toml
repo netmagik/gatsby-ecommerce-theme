@@ -3,6 +3,10 @@
   functions = "netlify/functions"
   publish = "public"
 
+[[redirects]]
+  from = "/news/*"
+  to = "/blog/:splat"
+
 [[plugins]]
   package = "@netlify/plugin-gatsby"
 
@@ -14,7 +18,3 @@
 
   [plugins.inputs]
     enable = false
-
-[[redirects]]
-  from = "/news"
-  to = "/blog"
