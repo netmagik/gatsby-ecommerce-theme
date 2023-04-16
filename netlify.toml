@@ -14,3 +14,8 @@
 
   [plugins.inputs]
     enable = false
+
+[[redirects]]
+  from = "/news"
+  to = "/blog"
+  status = 200
