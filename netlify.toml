@@ -6,14 +6,14 @@
 [[plugins]]
   package = "@netlify/plugin-gatsby"
 
-[[plugins]]
-  package = "netlify-plugin-cypress"
+# [[plugins]]
+#   package = "netlify-plugin-cypress"
 
-  [plugins.inputs.postBuild]
-    enable = true
+  # [plugins.inputs.postBuild]
+  #   enable = true
 
-  [plugins.inputs]
-    enable = false
+  # [plugins.inputs]
+  #   enable = false
 
 [[redirects]]
   from = "/news"
