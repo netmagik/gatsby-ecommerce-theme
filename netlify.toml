@@ -4,8 +4,8 @@
   publish = "public"
 
 [[redirects]]
-  from = "/news/"
-  to = "/blog"
+  from = "/news/*"
+  to = "/blog/:splat"
 
 [[plugins]]
   package = "@netlify/plugin-gatsby"
