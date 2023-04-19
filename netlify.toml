@@ -9,7 +9,7 @@
 
 [[redirects]]
   from = "/about"
-  to = "https://www.netlify.com/about/"
+  to = "https://astro-template-irina.netlify.app"
   status = 200
   force = true
 
