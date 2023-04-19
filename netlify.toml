@@ -7,6 +7,12 @@
   from = "/news/*"
   to = "/blog/:splat"
 
+[[redirects]]
+  from = "/about"
+  to = "https://www.netlify.com/about/"
+  status = 200
+  force = true
+
 [[plugins]]
   package = "@netlify/plugin-gatsby"
 
