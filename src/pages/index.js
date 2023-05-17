@@ -27,6 +27,7 @@ const IndexPage = () => {
   return (
     <Layout disablePaddingBottom>
       {/* Hero Container */}
+      <div className={styles.dev}>dev branch</div>
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
